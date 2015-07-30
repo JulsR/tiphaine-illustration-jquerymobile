@@ -1,0 +1,140 @@
+/* Overwritten Main.css styles */
+
+    /* Extra small devices (phones, less than 768px) */
+@media screen and (min-width: 320px){
+
+    body { padding-top: 0;}
+
+    header { width: 100%;}
+
+    header .header-fake {  width: 100%;  }
+
+    .navbar-default { margin-bottom: 0;}
+
+    header.fixed { display: none;}
+
+    header nav li.puce {  background: none;  }
+
+    nav #contact { visibility: hidden;}
+
+
+    #navbar2 { display: none;}
+
+    .visible-* { display: block;}
+
+    a.news-image-top span.zoom {left: 5%;} /* Zoom Ball */
+
+    .default-news { width: 100% !important; }
+
+    #wrapper { width: 100%;}
+
+    .masonry-wrapper { padding: 8px 0 37px 34px !important;}
+
+    .item {  margin: 0 34px 0 71px;}
+
+    #contenu-artiste { padding: 120px 20px 40px 85px;}
+
+    .creatives-liste { width: 100% !important;}
+
+    .contenu { padding: 120px 20px 40px 20px;}
+
+    .table-responsive { border: none;}
+
+    .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th { border-top: none;}
+
+    footer a, footer span { margin-right: 9px;  }
+
+    #newsletter { visibility: hidden;}
+    #fb         { visibility: hidden;}
+    #legales    {visibility: hidden;}
+    #version    {visibility: hidden;}
+
+
+    .clearfix:after { content: "";
+        display: table;
+        clear: both;}
+
+
+} /* Close */
+
+
+
+
+
+
+    /* Small devices (tablets, 768px and up) */
+    @media screen and (min-width: 768px) {
+
+        .navbar-default {
+            margin-bottom: 0;
+        }
+
+        header.fixed {
+            display: none;
+        }
+
+        header nav li.puce { background: url("http://www.tiphaine-illustration.com/static/img/nav-puce.png") no-repeat center center}
+
+        a.news-image-top span.zoom {left: 30%;} /* Zoom Ball */
+        .item {  margin: 0 18px 0 98px;}
+
+        #navbar1 { display: block;
+                   visibility: hidden; }
+
+        #navbar2 { display: block;
+                    visibility: visible;}
+
+        nav #contact {
+            visibility: visible;
+        }
+
+        #contenu-artiste { padding: 120px 10px 40px 140px;}
+
+        #newsletter {
+            visibility: visible;
+        }
+
+        #fb {
+            visibility: visible;
+        }
+
+        #legales {
+            visibility: visible;
+        }
+
+        #version {
+            visibility: hidden;
+        }
+
+    }/* Close */
+
+
+
+
+
+    /* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px){
+
+     header.fixed { display: none;}
+
+    header nav li.puce { background: url("http://www.tiphaine-illustration.com/static/img/nav-puce.png") no-repeat center center}
+
+    #navbar1 { display: block;
+               visibility: hidden; }
+
+
+    #contenu-artiste { padding: 120px 20px 40px 115px;}
+
+    a.news-image-top span.zoom {left: 38%;} /* Zoom Ball */
+
+    .item {  margin: 0 18px 0 53px;}
+
+    #main-img { width: 92% !important;}
+
+        #newsletter { visibility: visible;}
+        #fb         { visibility: visible;}
+        #legales    {visibility: visible;}
+        #version    {visibility: visible;}
+
+
+}/* Close */
